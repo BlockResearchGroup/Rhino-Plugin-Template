@@ -1,0 +1,26 @@
+{
+    "icons": {
+        "bitmap": "",
+        "images": []
+    },
+
+    "commands": [
+        {
+            "name": "PLUGIN_NAME_create_beam",
+            "menu_text": "Create beam",
+            "tooltip": "Create a Beam fron a line."
+        }
+    ],
+    "menus": [
+        {
+            "name": "PLUGIN_NAME",
+            "items": [
+                {
+                    "command": "PLUGIN_NAME_create_beam"
+                }
+            ]
+        }
+    ],
+    "toolbars": [],
+    "toolbargroups": []
+}
